@@ -1,0 +1,15 @@
+{
+	"Service": "/MDKSample1/Services/MDKSampleAPP.service",
+	"DefiningRequests": [{
+		"Name": "SalesOrderHeaders",
+		"Query": "SalesOrderHeaders"
+	}, {
+		"Name": "SalesOrderItems",
+		"Query": "SalesOrderItems"
+	}],
+	"_Type": "Action.Type.OfflineOData.Download",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnFailure": "/MDKSample1/Actions/Service/SyncFailureMessage.action"
+}

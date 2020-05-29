@@ -1,0 +1,9 @@
+{
+	"Service": "/MDKSample1/Services/MDKSampleAPP.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/MDKSample1/Actions/Service/DownloadStartedMessage.action",
+	"OnFailure": "/MDKSample1/Actions/Service/SyncFailureMessage.action"
+}

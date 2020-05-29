@@ -1,0 +1,5 @@
+{
+    "ServiceUrl": "/destinations/mobileservices_cf",
+    "AppId": "com.sap.mobile.platform.cards",
+    "DestinationName": "com.sap.edm.sampleservice.v2"
+}
