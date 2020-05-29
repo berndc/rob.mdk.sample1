@@ -6,6 +6,7 @@
 				{
 					"Buttons": [
 						{
+							"Target": "",
 							"TextAlignment": "center",
 							"Title": "Bestellung anlegen",
 							"Visible": true
@@ -14,6 +15,7 @@
 					"EmptySection": {
 						"FooterVisible": false
 					},
+					"Target": "",
 					"Visible": true,
 					"_Name": "SectionButtonTable0",
 					"_Type": "Section.Type.ButtonTable"
@@ -25,10 +27,11 @@
 					"ImageCells": [
 						{
 							"ImageCell": {
-								"Image": "/MDKSample1/Images/puc_d.jpg",
+								"Image": "/MDKSample1/Images/ausnahme.jpg",
 								"ImageIsCircular": true,
-								"Subtitle": "Düsseldorf",
-								"Title": "PuC",
+								"Subtitle": "Apple",
+								"Target": "",
+								"Title": "Ausnehme",
 								"Visible": true
 							}
 						}
@@ -36,15 +39,18 @@
 					"Layout": {
 						"LayoutType": "HorizontalFit"
 					},
+					"Target": "",
 					"Visible": true,
 					"_Name": "SectionImageCollection0",
 					"_Type": "Section.Type.ImageCollection"
 				}
 			],
+			"Target": "",
 			"_Name": "SectionedTable0",
 			"_Type": "Control.Type.SectionedTable"
 		}
 	],
+	"Target": "",
 	"ToolBar": {
 		"Controls": [
 			{
@@ -52,6 +58,7 @@
 				"Clickable": true,
 				"Enabled": true,
 				"OnPress": "/MDKSample1/Actions/Logout.action",
+				"Target": "",
 				"Visible": true,
 				"_Name": "LogoutToolbarItem",
 				"_Type": "Control.Type.ToolbarItem"
@@ -61,6 +68,7 @@
 				"Clickable": true,
 				"Enabled": true,
 				"OnPress": "/MDKSample1/Actions/Service/SyncStartedMessage.action",
+				"Target": "",
 				"Visible": true,
 				"_Name": "UploadToolbarItem",
 				"_Type": "Control.Type.ToolbarItem"
