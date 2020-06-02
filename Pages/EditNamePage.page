@@ -1,4 +1,15 @@
 {
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/MDKSample1/Actions/ClosePage.action",
+				"Position": "left",
+				"SystemItem": "Cancel",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
 	"Caption": "Name Ändern",
 	"Controls": [
 		{
@@ -9,7 +20,11 @@
 							"Caption": "Name",
 							"IsEditable": true,
 							"IsVisible": true,
+							"OnValueChange": "/MDKSample1/Actions/checkName.action",
 							"PlaceHolder": "PlaceHolder",
+							"Styles": {
+								"Background": "objectInput"
+							},
 							"ValidationProperties": {
 								"SeparatorIsHidden": true,
 								"ValidationMessage": "Bitte tu was"

@@ -1,4 +1,8 @@
 {
+	"ModalPage": true,
 	"PageToOpen": "/MDKSample1/Pages/EditNamePage.page",
+	"Transition": {
+		"Curve": "Spring"
+	},
 	"_Type": "Action.Type.Navigation"
 }
