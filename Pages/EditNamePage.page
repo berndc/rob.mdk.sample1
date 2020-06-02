@@ -1,4 +1,14 @@
 {
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "left",
+				"SystemItem": "Cancel",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
 	"Caption": "Name Ändern",
 	"Controls": [
 		{
@@ -10,6 +20,9 @@
 							"IsEditable": true,
 							"IsVisible": true,
 							"PlaceHolder": "PlaceHolder",
+							"Styles": {
+								"Background": "objectInput"
+							},
 							"ValidationProperties": {
 								"SeparatorIsHidden": true,
 								"ValidationMessage": "Bitte tu was"
