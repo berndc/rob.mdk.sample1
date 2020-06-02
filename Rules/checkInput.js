@@ -10,6 +10,7 @@ export default function EmailValidation(ClientAPI) {
 			//element.setEditable(false);
 			element.setStyle("objectInputFaild");
 			element.redraw();
+			
 		}
 
 		//atSign.executeAction('/RobSampleApp1/Actions/ValidationFailure.action');
