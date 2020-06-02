@@ -24,25 +24,23 @@
 					"EmptySection": {
 						"FooterVisible": false
 					},
-					"ImageCells": [
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"SimplePropertyCells": [
 						{
-							"ImageCell": {
-								"Image": "/MDKSample1/Images/ausnahme.jpg",
-								"ImageIsCircular": true,
-								"Subtitle": "Apple",
-								"Target": "",
-								"Title": "Ausnehme",
+							"SimplePropertyCell": {
+								"AccessoryType": "disclosureIndicator",
+								"KeyName": "Name",
+								"OnPress": "/MDKSample1/Actions/NavToPageEditName.action",
+								"Value": "/MDKSample1/Globals/myName.global",
 								"Visible": true
 							}
 						}
 					],
-					"Layout": {
-						"LayoutType": "HorizontalFit"
-					},
-					"Target": "",
 					"Visible": true,
-					"_Name": "SectionImageCollection0",
-					"_Type": "Section.Type.ImageCollection"
+					"_Name": "SectionSimplePropertyCollection0",
+					"_Type": "Section.Type.SimplePropertyCollection"
 				}
 			],
 			"Target": "",

@@ -1,0 +1,103 @@
+/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.
+
+Examples:
+
+@mdkYellow1: #ffbb33;
+@mdkRed1: #ff0000;
+
+//// By-Type style: All Pages in the application will now have a yellow background
+Page
+
+{ background-color: @mdkYellow1; }
+//// By-Name style: All Buttons with _Name == "BlueButton" will now have this style
+#BlueButton
+
+{ color: @mdkYellow1; background-color: #0000FF; }
+//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function
+
+.MyButton
+
+{ color: @mdkYellow1; background-color: @mdkRed1; }
+*/
+
+@mdkYellow1: #ffbb33;
+@mdkRed1: #ff0000;
+@pucBlue:#000037;
+@pucRed:#720000;
+
+//// This style applies to all the ActionBars in the application
+ActionBar {
+    //color: @pucRed ;
+    background-color: @pucBlue;
+}
+
+//// This style applies to all the ToolBars in the application
+ToolBar {
+    //color: white;
+    background-color: @pucRed;
+}
+
+//// LogoutToolbarItem is tool bar item for Logout in Main.page
+#LogoutToolbarItem  {
+    color: @pucRed ;
+}
+
+//// UploadToolbarItem is tool bar item for Sync in Main.page
+#UploadToolbarItem  {
+    color:  @pucRed;
+}
+
+//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function
+//// below snippet is to style SalesOrder button on Main.page
+.MyPuCButton {
+  font-color: @pucRed ;
+  background-color: @pucBlue ;
+}
+
+//// below snippet is to style Title property of an Object Table control in Customers_List.page
+.ObjectTableTitle {
+  font-color: @mdkYellow1;
+  background-color: @mdkRed1;
+}
+
+//// below snippet is to style Object Header control in Customers_Detail.page
+
+.objectHeaderBodyText {
+  font-color: red;
+}
+
+.objectHeaderDescription {
+  font-color: blue;
+}
+
+.objectHeaderFootNote {
+  font-color: green;
+}
+
+.objectHeaderHeadline {
+  font-color: #ff00ff;
+}
+
+.objectHeaderBackground {
+background-color: #DC143C;
+}
+
+.objectHeaderStatus {
+  background-color: #cccccc;
+  font-color: red;
+  font-name: italicSystem;
+  font-style: italic;
+  font-size: 18;
+}
+
+.objectHeaderSubhead {
+  font-color: yellow;
+}
+
+.objectHeaderSubStatus {
+  background-color: #cccccc;
+  font-color: blue;
+  font-name: italicSystem;
+  font-style: italic;
+  font-size: 18;
+}

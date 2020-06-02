@@ -1,0 +1,7 @@
+{
+	"OnFailure": "/MDKSample1/Actions/ValFalilurFCNAME.action",
+	"RequiredFields": [
+		"FCmyName"
+	],
+	"_Type": "Action.Type.CheckRequiredFields"
+}

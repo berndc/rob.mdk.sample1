@@ -1,0 +1,31 @@
+{
+	"Caption": "Name Ändern",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Name",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"ValidationProperties": {
+								"SeparatorIsHidden": true,
+								"ValidationMessage": "Bitte tu was"
+							},
+							"Value": "/MDKSample1/Globals/myName.global",
+							"_Name": "FCmyName",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "EditNamePage",
+	"_Type": "Page"
+}
