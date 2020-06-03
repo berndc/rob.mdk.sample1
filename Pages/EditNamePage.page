@@ -25,7 +25,6 @@
 					"Controls": [
 						{
 							"Caption": "Name",
-							"FormatRule": "/MDKSample1/Rules/EmailValidation.js",
 							"IsEditable": true,
 							"IsVisible": true,
 							"OnValueChange": "/MDKSample1/Actions/checkName.action",
