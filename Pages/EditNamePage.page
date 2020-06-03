@@ -25,6 +25,7 @@
 							"Styles": {
 								"Background": "objectInput"
 							},
+							"Target": "",
 							"ValidationProperties": {
 								"SeparatorIsHidden": true,
 								"ValidationMessage": "Bitte tu was"
@@ -34,13 +35,16 @@
 							"_Type": "Control.Type.FormCell.SimpleProperty"
 						}
 					],
+					"Target": "",
 					"Visible": true
 				}
 			],
+			"Target": "",
 			"_Name": "FormCellContainer0",
 			"_Type": "Control.Type.FormCellContainer"
 		}
 	],
+	"Target": "",
 	"ToolBar": {
 		"Controls": [
 			{
@@ -48,7 +52,9 @@
 				"Clickable": true,
 				"Enabled": true,
 				"ItemType": "Button",
+				"OnPress": "/MDKSample1/Actions/checkInputMessageAction.action",
 				"SystemItem": "Done",
+				"Target": "",
 				"Visible": true,
 				"_Name": "ToolbarItem0",
 				"_Type": "Control.Type.ToolbarItem"
