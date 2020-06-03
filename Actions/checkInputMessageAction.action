@@ -2,6 +2,6 @@
 	"Animated": true,
 	"Duration": 5,
 	"Message": "Bittte Eingaben prüfen",
-	"OnFailure": "/MDKSample1/Rules/checkInput.js",
+	"ValidationRule": "/MDKSample1/Rules/EmailValidation.js",
 	"_Type": "Action.Type.BannerMessage"
 }

@@ -25,6 +25,7 @@
 					"Controls": [
 						{
 							"Caption": "Name",
+							"FormatRule": "/MDKSample1/Rules/EmailValidation.js",
 							"IsEditable": true,
 							"IsVisible": true,
 							"OnValueChange": "/MDKSample1/Actions/checkName.action",
@@ -34,8 +35,12 @@
 							},
 							"Target": "",
 							"ValidationProperties": {
+								"SeparatorBackgroundColor": "red",
 								"SeparatorIsHidden": true,
-								"ValidationMessage": "Bitte tu was"
+								"ValidationMessage": "Bitte tu was",
+								"ValidationMessageColor": "red",
+								"ValidationViewBackgroundColor": "red",
+								"ValidationViewIsHidden": true
 							},
 							"Value": "/MDKSample1/Globals/myName.global",
 							"_Name": "FCmyName",
