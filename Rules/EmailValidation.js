@@ -15,7 +15,7 @@ export default function EmailValidation(ClientAPI) {
 
 		}
 
-		ClientAPI.executeAction('/RobSampleApp1/Actions/checkInputMessageAction.action');
+		ClientAPI.executeAction('/MDKSample1/Actions/checkInputMessageAction.action');
 	} else {
 
 		//If @ is present in the email value, return true to indicate validation is successful
