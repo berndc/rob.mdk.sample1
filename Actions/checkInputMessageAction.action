@@ -1,0 +1,7 @@
+{
+	"Animated": true,
+	"Duration": 5,
+	"Message": "Bittte Eingaben prüfen",
+	"OnFailure": "/MDKSample1/Rules/checkInput.js",
+	"_Type": "Action.Type.BannerMessage"
+}

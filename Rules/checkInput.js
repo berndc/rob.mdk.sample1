@@ -1,4 +1,4 @@
-export default function EmailValidation(ClientAPI) {
+export default function checkInput(ClientAPI) {
 
 	//The following evaluateTargetPath will retrieve the current value of the email control
 	if (ClientAPI.evaluateTargetPath('#Page:EditNamePage/#Control:FCmyNamel/#Value')) {
@@ -10,6 +10,7 @@ export default function EmailValidation(ClientAPI) {
 			//element.setEditable(false);
 			element.setStyle("objectInputFaild");
 			element.redraw();
+
 		}
 
 		//atSign.executeAction('/RobSampleApp1/Actions/ValidationFailure.action');

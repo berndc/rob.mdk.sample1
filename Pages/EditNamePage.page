@@ -41,6 +41,20 @@
 			"_Type": "Control.Type.FormCellContainer"
 		}
 	],
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "ToolbarItem",
+				"Clickable": true,
+				"Enabled": true,
+				"ItemType": "Button",
+				"SystemItem": "Done",
+				"Visible": true,
+				"_Name": "ToolbarItem0",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
 	"_Name": "EditNamePage",
 	"_Type": "Page"
 }
