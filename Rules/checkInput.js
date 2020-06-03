@@ -8,7 +8,7 @@ export default function checkInput(ClientAPI) {
 
 		if (fieldValue == 'X') {
 			//element.setEditable(false);
-			element.setStyle("objectInputFaild");
+			element.setStyle("Background", "objectInputFaild");
 			element.redraw();
 
 		}
