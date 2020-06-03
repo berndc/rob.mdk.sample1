@@ -7,6 +7,13 @@
 				"SystemItem": "Cancel",
 				"Text": "Item",
 				"Visible": true
+			},
+			{
+				"OnPress": "/MDKSample1/Actions/checkInputMessageAction.action",
+				"Position": "right",
+				"SystemItem": "Done",
+				"Text": "Item",
+				"Visible": true
 			}
 		]
 	},
