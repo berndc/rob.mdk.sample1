@@ -41,7 +41,7 @@
 								"ValidationViewBackgroundColor": "red",
 								"ValidationViewIsHidden": true
 							},
-							"Value": "/MDKSample1/Globals/myName.global",
+							"Value": "/MDKSample1/Globals/icnt.global",
 							"_Name": "FCmyName",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
 						}

@@ -10,12 +10,19 @@ export default function EmailValidation(ClientAPI) {
 
 		if (fieldValue == 'X') {
 			//element.setEditable(false);
-			element.setStyle("Background", "objectInputFaild");
+			element.setStyle("objectInputFaild");
+
 			element.redraw();
+
+			fieldValue = fieldValue + 1;
+
+			var control = ClientAPI.getControl()
+			control.setStyle('objectInputFaild');
+
+			ClientAPI.executeAction('/MDKSample1/Actions/checkInputMessageAction.action');
 
 		}
 
-		ClientAPI.executeAction('/MDKSample1/Actions/checkInputMessageAction.action');
 	} else {
 
 		//If @ is present in the email value, return true to indicate validation is successful
