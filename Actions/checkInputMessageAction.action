@@ -2,6 +2,9 @@
 	"Animated": true,
 	"Duration": 5,
 	"Message": "Bittte Eingaben prüfen",
-	"ValidationRule": "/MDKSample1/Rules/EmailValidation.js",
+	"OnFailureLog": {
+		"Level": "Error",
+		"Message": "Eingabe im Input Feld flasch"
+	},
 	"_Type": "Action.Type.BannerMessage"
 }
