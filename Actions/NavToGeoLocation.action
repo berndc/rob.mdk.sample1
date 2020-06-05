@@ -1,0 +1,6 @@
+{
+	"ActivityIndicatorText": "just wait ...",
+	"PageToOpen": "/MDKSample1/Pages/GeoLocationPage.page",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.Navigation"
+}

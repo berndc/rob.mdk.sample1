@@ -1,0 +1,33 @@
+{
+	"Caption": "GeoLocation",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Location",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Styles": {
+								"Background": "/MDKSample1/Rules/getFailoreStyleCSS.js"
+							},
+							"ValidationProperties": {
+								"ValidationMessageColor": "red"
+							},
+							"Value": "/MDKSample1/Rules/GetCoordinates.js",
+							"_Name": "FormCellSimpleProperty0",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "GeoLocationPage",
+	"_Type": "Page"
+}

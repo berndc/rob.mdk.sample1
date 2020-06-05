@@ -10,6 +10,12 @@
 							"TextAlignment": "center",
 							"Title": "Bestellung anlegen",
 							"Visible": true
+						},
+						{
+							"OnPress": "/MDKSample1/Actions/NavToGeoLocation.action",
+							"TextAlignment": "center",
+							"Title": "Geo Location",
+							"Visible": true
 						}
 					],
 					"EmptySection": {
@@ -23,6 +29,10 @@
 				{
 					"EmptySection": {
 						"FooterVisible": false
+					},
+					"Footer": {
+						"UseBottomPadding": false,
+						"Visible": true
 					},
 					"Layout": {
 						"NumberOfColumns": 1

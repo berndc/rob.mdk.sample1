@@ -8,27 +8,30 @@ export default function EmailValidation(ClientAPI) {
 		var fieldValue = ClientAPI.evaluateTargetPath('#Page:EditNamePage/#Control:FCmyName/#Value');
 		var element = ClientAPI.evaluateTargetPath('#Page:EditNamePage/#Control:FCmyName');
 
-		if (fieldValue == 'X') {
-			//element.setEditable(false);
-			element.setStyle("objectInputFaild");
+		//if (fieldValue == 'X') {
+		//element.setEditable(false);
+		console.debug(">>> try Element");
 
-			element.redraw();
+		element.setStyle("objectInputFaild");
+		element.setStyle("background-color: #720000");
+		element.setValue("Hier bitte einen Wert eingeben");
+		element.redraw();
 
-			fieldValue = fieldValue + 1;
+		console.debug(">>> try getControl");
 
-			var control = ClientAPI.getControl()
+		var control = ClientAPI.getControl()
+		control.setStyle("background-color: #720000");
+		control.setValue("Bitte hier Wert eingeben!!");
 
-			control.setStyle("objectInputFaild", "Background");
-			//control.setStyle('objectInputFaild');
+		console.log(">fieldValue" + fieldValue);
 
-			console.log(">fieldValue EQ X");
-			let srcValue = ClientAPI.getValue();
-			//let targetCtrl = controlProxy.evaluateTargetPath("#Page:SampleExtensionPage/#Control:MyExtensionControlName");
-			element.setValue("Bitte hier Wert eingeben!!");
+		let srcValue = ClientAPI.getValue();
+		//let targetCtrl = controlProxy.evaluateTargetPath("#Page:SampleExtensionPage/#Control:MyExtensionControlName");
 
-			ClientAPI.executeAction('/MDKSample1/Actions/checkInputMessageAction.action');
+		console.log(">>> exeAction");
+		ClientAPI.executeAction('/MDKSample1/Actions/checkInputMessageAction.action');
 
-		}
+		//}
 
 	} else {
 

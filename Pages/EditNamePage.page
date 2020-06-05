@@ -30,16 +30,18 @@
 							"OnValueChange": "/MDKSample1/Actions/checkName.action",
 							"PlaceHolder": "PlaceHolder",
 							"Styles": {
-								"Background": "objectInput"
+								"Background": "objectInput",
+								"Caption": "objectInput",
+								"Value": "objectInput"
 							},
 							"Target": "",
 							"ValidationProperties": {
-								"SeparatorBackgroundColor": "red",
-								"SeparatorIsHidden": true,
+								"SeparatorBackgroundColor": "F49841 ",
+								"SeparatorIsHidden": false,
 								"ValidationMessage": "Bitte tu was",
-								"ValidationMessageColor": "red",
-								"ValidationViewBackgroundColor": "red",
-								"ValidationViewIsHidden": true
+								"ValidationMessageColor": "#F49841 ",
+								"ValidationViewBackgroundColor": "F49841 ",
+								"ValidationViewIsHidden": false
 							},
 							"Value": "/MDKSample1/Globals/icnt.global",
 							"_Name": "FCmyName",

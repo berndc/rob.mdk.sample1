@@ -7,5 +7,6 @@
 	"RequiredFields": [
 		"FCmyName"
 	],
+	"ValidationRule": "/MDKSample1/Rules/checkInput.js",
 	"_Type": "Action.Type.CheckRequiredFields"
 }
