@@ -17,7 +17,14 @@ export default function EmailValidation(ClientAPI) {
 			fieldValue = fieldValue + 1;
 
 			var control = ClientAPI.getControl()
-			control.setStyle('objectInputFaild');
+
+			control.setStyle("objectInputFaild", "Background");
+			//control.setStyle('objectInputFaild');
+
+			console.log(">fieldValue EQ X");
+			let srcValue = ClientAPI.getValue();
+			//let targetCtrl = controlProxy.evaluateTargetPath("#Page:SampleExtensionPage/#Control:MyExtensionControlName");
+			element.setValue("Bitte hier Wert eingeben!!");
 
 			ClientAPI.executeAction('/MDKSample1/Actions/checkInputMessageAction.action');
 

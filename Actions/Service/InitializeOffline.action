@@ -1,18 +1,26 @@
 {
-	"Service": "/MDKSample1/Services/MDKSampleAPP.service",
-	"DefiningRequests": [{
-		"Name": "SalesOrderHeaders",
-		"Query": "SalesOrderHeaders"
-	}, {
-		"Name": "SalesOrderItems",
-		"Query": "SalesOrderItems"
-	}],
-	"_Type": "Action.Type.OfflineOData.Initialize",
-	"ShowActivityIndicator": true,
-	"ActivityIndicatorText": "Downloading...",
 	"ActionResult": {
 		"_Name": "init"
 	},
+	"ActivityIndicatorText": "Downloading...",
+	"DefiningRequests": [
+		{
+			"Name": "SalesOrderHeaders",
+			"Query": "SalesOrderHeaders"
+		},
+		{
+			"Name": "SalesOrderItems",
+			"Query": "SalesOrderItems"
+		}
+	],
+	"OnFailure": "/MDKSample1/Actions/Service/InitializeOfflineFailureMessage.action",
 	"OnSuccess": "/MDKSample1/Actions/Service/InitializeOfflineSuccessMessage.action",
-	"OnFailure": "/MDKSample1/Actions/Service/InitializeOfflineFailureMessage.action"
+	"ProgressText": {
+		"Initializing": "init",
+		"Opening": "opening",
+		"StartingDownloadingFile": "downloading"
+	},
+	"Service": "/MDKSample1/Services/MDKSampleAPP.service",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.OfflineOData.Initialize"
 }

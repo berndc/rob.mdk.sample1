@@ -1,3 +1,4 @@
 {
+	"OnSuccess": "/MDKSample1/Actions/SucStdMessageAct.action",
 	"_Type": "Action.Type.Logout"
 }

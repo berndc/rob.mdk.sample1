@@ -1,5 +1,9 @@
 {
 	"OnFailure": "/MDKSample1/Actions/ValFalilurFCNAME.action",
+	"OnInvalidLog": {
+		"Level": "Warn",
+		"Message": "---> Falsche Eingabe ---"
+	},
 	"RequiredFields": [
 		"FCmyName"
 	],

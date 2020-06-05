@@ -70,6 +70,15 @@
 				"Visible": true,
 				"_Name": "UploadToolbarItem",
 				"_Type": "Control.Type.ToolbarItem"
+			},
+			{
+				"Caption": "push Logs",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/MDKSample1/Actions/LogUploadAct.action",
+				"Visible": true,
+				"_Name": "ToolbarItem0",
+				"_Type": "Control.Type.ToolbarItem"
 			}
 		]
 	},

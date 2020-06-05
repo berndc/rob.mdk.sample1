@@ -1,0 +1,13 @@
+{
+	"OnFailure": "/MDKSample1/Actions/PushRegisterFailureMessage.action",
+	"OnInvalidLog": {
+		"Level": "Warn",
+		"Message": "Push Message not registered"
+	},
+	"OnSuccess": "/MDKSample1/Actions/PushRegisterSuccessMessage.action",
+	"OnSuccessLog": {
+		"Level": "Info",
+		"Message": "Push Message are registered"
+	},
+	"_Type": "Action.Type.PushNotificationRegister"
+}

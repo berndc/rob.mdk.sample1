@@ -1,12 +1,13 @@
 {
-	"_Name": "MDKSample1",
-	"Version": "/MDKSample1/Globals/AppDefinition_Version.global",
+	"Localization": "/MDKSample1/i18n/i18n.properties",
 	"MainPage": "/MDKSample1/Pages/Main.page",
+	"OnDidUpdate": "/MDKSample1/Actions/Service/InitializeOffline.action",
 	"OnLaunch": [
-		"/MDKSample1/Actions/Service/InitializeOffline.action"
+		"/MDKSample1/Actions/Service/InitializeOffline.action",
+		"/MDKSample1/Actions/PushRegisterAct.action"
 	],
 	"OnWillUpdate": "/MDKSample1/Rules/OnWillUpdate.js",
-	"OnDidUpdate": "/MDKSample1/Actions/Service/InitializeOffline.action",
 	"Styles": "/MDKSample1/Styles/Styles.less",
-	"Localization": "/MDKSample1/i18n/i18n.properties"
+	"Version": "/MDKSample1/Globals/AppDefinition_Version.global",
+	"_Name": "MDKSample1"
 }
