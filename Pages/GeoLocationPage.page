@@ -1,10 +1,28 @@
 {
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "left",
+				"SystemItem": "Search",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
 	"Caption": "G -E - O",
 	"Controls": [
 		{
 			"Sections": [
 				{
 					"Controls": [
+						{
+							"Caption": "Ort",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"_Name": "FC_Ort",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
 						{
 							"Caption": "Location",
 							"IsEditable": false,
@@ -18,7 +36,7 @@
 								"ValidationMessageColor": "red"
 							},
 							"Value": "/MDKSample1/Rules/GetCoordinates.js",
-							"_Name": "FormCellSimpleProperty0",
+							"_Name": "FC_Location",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
 						}
 					],

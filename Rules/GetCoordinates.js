@@ -2,6 +2,9 @@
  // import { Accuracy } from "tns-core-modules/ui/enums";
  export default function GetCoordinates(context) {
 
+ 	var element = context.evaluateTargetPath('#Page:GeoLocationPage/#Control:FC_Ort');
+ 	element.setValue("Düsseldorf");
+ 	element.setSyle("objectInput", "")
  	context.setStyle("objectInput", "")
 
  	return "08/19";
