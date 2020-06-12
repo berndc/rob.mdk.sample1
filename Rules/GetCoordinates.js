@@ -2,6 +2,8 @@
  // import { Accuracy } from "tns-core-modules/ui/enums";
  export default function GetCoordinates(context) {
 
+ 	context.setStyle("objectInput", "")
+
  	return "08/19";
  }
 

@@ -1,5 +1,6 @@
 {
-    "ServiceUrl": "/destinations/mobileservices_cf",
-    "AppId": "com.sap.mobile.platform.cards",
-    "DestinationName": "com.sap.edm.sampleservice.v2"
+	"AppId": "puc.mobile.mde",
+	"DestinationName": "com.sap.edm.sampleservice.v2",
+	"OfflineEnabled": false,
+	"ServiceUrl": "/destinations/mobileservices_cf"
 }

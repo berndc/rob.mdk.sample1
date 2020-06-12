@@ -11,7 +11,7 @@
 							"IsVisible": true,
 							"PlaceHolder": "PlaceHolder",
 							"Styles": {
-								"Background": "/MDKSample1/Rules/getFailoreStyleCSS.js"
+								"Caption": "/MDKSample1/Rules/getFailoreStyleCSS.js"
 							},
 							"Target": "",
 							"ValidationProperties": {
