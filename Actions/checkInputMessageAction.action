@@ -6,5 +6,9 @@
 		"Level": "Error",
 		"Message": "Eingabe im Input Feld flasch"
 	},
+	"OnSuccessLog": {
+		"Level": "Info",
+		"Message": "Gut gemacht "
+	},
 	"_Type": "Action.Type.BannerMessage"
 }

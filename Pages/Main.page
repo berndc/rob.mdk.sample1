@@ -1,5 +1,5 @@
 {
-	"Caption": "Main",
+	"Caption": "APP MDK Sampl1",
 	"Controls": [
 		{
 			"Sections": [
@@ -13,6 +13,7 @@
 						},
 						{
 							"OnPress": "/MDKSample1/Actions/NavToGeoLocation.action",
+							"Target": "",
 							"TextAlignment": "center",
 							"Title": "Geo Location",
 							"Visible": true
@@ -43,11 +44,13 @@
 								"AccessoryType": "disclosureIndicator",
 								"KeyName": "Name",
 								"OnPress": "/MDKSample1/Actions/NavToPageEditName.action",
+								"Target": "",
 								"Value": "/MDKSample1/Globals/myName.global",
 								"Visible": true
 							}
 						}
 					],
+					"Target": "",
 					"Visible": true,
 					"_Name": "SectionSimplePropertyCollection0",
 					"_Type": "Section.Type.SimplePropertyCollection"
@@ -86,6 +89,7 @@
 				"Clickable": true,
 				"Enabled": true,
 				"OnPress": "/MDKSample1/Actions/LogUploadAct.action",
+				"Target": "",
 				"Visible": true,
 				"_Name": "ToolbarItem0",
 				"_Type": "Control.Type.ToolbarItem"

@@ -27,20 +27,13 @@
 							"Caption": "Name",
 							"IsEditable": true,
 							"IsVisible": true,
-							"OnValueChange": "/MDKSample1/Actions/checkName.action",
+							"OnValueChange": "/MDKSample1/Rules/EmailValidation.js",
 							"PlaceHolder": "PlaceHolder",
-							"Styles": {
-								"Background": "objectInput",
-								"Caption": "objectInput",
-								"Value": "objectInput"
-							},
 							"Target": "",
 							"ValidationProperties": {
 								"SeparatorBackgroundColor": "F49841 ",
 								"SeparatorIsHidden": false,
 								"ValidationMessage": "Bitte tu was",
-								"ValidationMessageColor": "#F49841 ",
-								"ValidationViewBackgroundColor": "F49841 ",
 								"ValidationViewIsHidden": false
 							},
 							"Value": "/MDKSample1/Globals/icnt.global",

@@ -2,7 +2,7 @@
  // import { Accuracy } from "tns-core-modules/ui/enums";
  export default function GetCoordinates(context) {
 
- 	return "08/15";
+ 	return "08/19";
  }
 
  /*	var logger = context.getLogger();
