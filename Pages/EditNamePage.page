@@ -27,7 +27,7 @@
 							"Caption": "Name",
 							"IsEditable": true,
 							"IsVisible": true,
-							"OnValueChange": "/MDKSample1/Rules/EmailValidation.js",
+							"OnValueChange": "/MDKSample1/Rules/checkInput.js",
 							"PlaceHolder": "PlaceHolder",
 							"Target": "",
 							"ValidationProperties": {

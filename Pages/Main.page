@@ -32,6 +32,10 @@
 						"FooterVisible": false
 					},
 					"Footer": {
+						"AccessoryType": "disclosureIndicator",
+						"AttributeLabel": "/MDKSample1/Globals/myName.global",
+						"Caption": "app version",
+						"FooterStyle": "title",
 						"UseBottomPadding": false,
 						"Visible": true
 					},
@@ -46,6 +50,14 @@
 								"OnPress": "/MDKSample1/Actions/NavToPageEditName.action",
 								"Target": "",
 								"Value": "/MDKSample1/Globals/myName.global",
+								"Visible": true
+							}
+						},
+						{
+							"SimplePropertyCell": {
+								"AccessoryType": "detailButton",
+								"KeyName": "APP-  Version",
+								"Value": "/MDKSample1/Globals/AppDefinition_Version.global",
 								"Visible": true
 							}
 						}
