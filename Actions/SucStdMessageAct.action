@@ -1,5 +1,9 @@
 {
+	"ActionResult": {
+		"_Name": "true"
+	},
 	"Animated": true,
 	"Message": "Aktion ausgeführt",
+	"ValidationRule": "/MDKSample1/Rules/_checkInput.js",
 	"_Type": "Action.Type.BannerMessage"
 }

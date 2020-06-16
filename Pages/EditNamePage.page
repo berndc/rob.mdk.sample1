@@ -27,7 +27,6 @@
 							"Caption": "Name",
 							"IsEditable": true,
 							"IsVisible": true,
-							"OnValueChange": "/MDKSample1/Rules/checkInput.js",
 							"PlaceHolder": "PlaceHolder",
 							"Target": "",
 							"ValidationProperties": {
@@ -36,7 +35,7 @@
 								"ValidationMessage": "Bitte tu was",
 								"ValidationViewIsHidden": false
 							},
-							"Value": "/MDKSample1/Globals/icnt.global",
+							"Value": "/MDKSample1/Globals/myName.global",
 							"_Name": "FCmyName",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
 						}
@@ -58,7 +57,7 @@
 				"Clickable": true,
 				"Enabled": true,
 				"ItemType": "Button",
-				"OnPress": "/MDKSample1/Actions/checkInputMessageAction.action",
+				"OnPress": "/MDKSample1/Actions/checkName.action",
 				"SystemItem": "Done",
 				"Target": "",
 				"Visible": true,

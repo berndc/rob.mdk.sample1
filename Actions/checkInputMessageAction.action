@@ -2,13 +2,17 @@
 	"Animated": true,
 	"Duration": 5,
 	"Message": "Bittte Eingaben prüfen",
+	"OnFailure": "/MDKSample1/Actions/ValFalilurFCNAME.action",
 	"OnFailureLog": {
 		"Level": "Error",
 		"Message": "Eingabe im Input Feld flasch"
 	},
+	"OnInvalid": "/MDKSample1/Actions/ValFalilurFCNAME.action",
+	"OnSuccess": "/MDKSample1/Actions/ClosePage.action",
 	"OnSuccessLog": {
 		"Level": "Info",
-		"Message": "Gut gemacht "
+		"Message": ""
 	},
+	"ValidationRule": "/MDKSample1/Rules/checkInput.js",
 	"_Type": "Action.Type.BannerMessage"
 }

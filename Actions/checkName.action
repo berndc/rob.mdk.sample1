@@ -1,12 +1,12 @@
 {
-	"OnFailure": "/MDKSample1/Actions/ValFalilurFCNAME.action",
+	"OnFailure": "/MDKSample1/Rules/UpdateRequiredFailed.js",
 	"OnInvalidLog": {
 		"Level": "Warn",
 		"Message": "---> Falsche Eingabe ---"
 	},
+	"OnSuccess": "/MDKSample1/Actions/SucStdMessageAct.action",
 	"RequiredFields": [
 		"FCmyName"
 	],
-	"ValidationRule": "/MDKSample1/Rules/checkInput.js",
 	"_Type": "Action.Type.CheckRequiredFields"
 }
