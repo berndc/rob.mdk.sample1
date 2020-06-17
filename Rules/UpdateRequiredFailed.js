@@ -7,11 +7,7 @@ export default function UpdateRequiredFailed(context) {
 	//first remove all previous validation
 	//CommonLibrary.clearValidationForPage(pageProxy);
 
-	var allControls = context.getPageProxy().getControls();
 	//var allControls = pageProxy.getControl('FormCellContainer').getControls();
-	for (var item of allControls) {
-		item.clearValidation();
-	}
 
 	//get the missing fields
 	var missingRequiredFields = context.getMissingRequiredControls();
@@ -32,11 +28,9 @@ export default function UpdateRequiredFailed(context) {
 		control.setValidationProperty('SeparatorBackgroundColor', '0000ff');
 
 		//control.applyValidation();
-
 		control.redraw();
 		//}
 
-		control.setStyle("objectInputFaild", "");
 	}
 
 	//show inline error
