@@ -20,6 +20,12 @@
 							"IsEditable": false,
 							"IsVisible": true,
 							"PlaceHolder": "PlaceHolder",
+							"ValidationProperties": {
+								"SeparatorBackgroundColor": "ff0000",
+								"ValidationMessage": "Wert Eingeben\n",
+								"ValidationMessageColor": "ff0000",
+								"ValidationViewBackgroundColor": "ff0000"
+							},
 							"_Name": "FC_Ort",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
 						},

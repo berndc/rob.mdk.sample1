@@ -1,19 +1,20 @@
 //import CommonLibrary from './Library/CommonLibrary';
 
-export default function UpdateRequiredFailed(pageProxy) {
+export default function UpdateRequiredFailed(context) {
 
 	alert("iam in Validation");
 
 	//first remove all previous validation
 	//CommonLibrary.clearValidationForPage(pageProxy);
 
+	var allControls = context.getPageProxy().getControls();
 	//var allControls = pageProxy.getControl('FormCellContainer').getControls();
-	//	for (var item of allControls) {
-	//		item.clearValidation();
-	//	}
+	for (var item of allControls) {
+		item.clearValidation();
+	}
 
 	//get the missing fields
-	var missingRequiredFields = pageProxy.getMissingRequiredControls();
+	var missingRequiredFields = context.getMissingRequiredControls();
 	var message = "Bitte Eingabe prüfen";
 
 	//set the inline error
@@ -26,14 +27,16 @@ export default function UpdateRequiredFailed(pageProxy) {
 		control.setValidationProperty('ValidationMessage', message);
 		control.setValidationProperty('SeparatorIsHidden', false);
 		control.setValidationProperty('ValidationViewIsHidden', false);
-		// control.setValidationProperty('ValidationViewBackgroundColor', bgColor);
-		// control.setValidationProperty('ValidationMessageColor', msgColor);
-		// control.setValidationProperty('SeparatorBackgroundColor', separatorColor);
+		control.setValidationProperty('ValidationViewBackgroundColor', '00ff00');
+		control.setValidationProperty('ValidationMessageColor', 'ff0000');
+		control.setValidationProperty('SeparatorBackgroundColor', '0000ff');
 
-		control.applyValidation();
+		//control.applyValidation();
 
 		control.redraw();
 		//}
+
+		control.setStyle("objectInputFaild", "");
 	}
 
 	//show inline error
