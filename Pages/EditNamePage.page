@@ -38,6 +38,14 @@
 							"Value": "/MDKSample1/Globals/myName.global",
 							"_Name": "FCmyName",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Location",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"_Name": "FC_Ort",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
 						}
 					],
 					"Target": "",

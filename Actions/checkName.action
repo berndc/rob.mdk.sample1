@@ -4,9 +4,10 @@
 		"Level": "Warn",
 		"Message": "---> Falsche Eingabe ---"
 	},
-	"OnSuccess": "/MDKSample1/Actions/SucStdMessageAct.action",
+	"OnSuccess": "/MDKSample1/Actions/MessageActionSuccess.action",
 	"RequiredFields": [
-		"FCmyName"
+		"FCmyName",
+		"FC_Ort"
 	],
 	"_Type": "Action.Type.CheckRequiredFields"
 }
