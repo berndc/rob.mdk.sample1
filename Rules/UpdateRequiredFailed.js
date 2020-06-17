@@ -7,10 +7,11 @@ export default function UpdateRequiredFailed(pageProxy) {
 	//first remove all previous validation
 	//CommonLibrary.clearValidationForPage(pageProxy);
 
+	//var allControls = pageProxy.getPage().getControls();     
 	//var allControls = pageProxy.getControl('FormCellContainer').getControls();
-	//	for (var item of allControls) {
-	//		item.clearValidation();
-	//	}
+	//for (var item of allControls) {
+	//	item.clearValidation();
+	//}
 
 	//get the missing fields
 	var missingRequiredFields = pageProxy.getMissingRequiredControls();
@@ -26,14 +27,16 @@ export default function UpdateRequiredFailed(pageProxy) {
 		control.setValidationProperty('ValidationMessage', message);
 		control.setValidationProperty('SeparatorIsHidden', false);
 		control.setValidationProperty('ValidationViewIsHidden', false);
-		// control.setValidationProperty('ValidationViewBackgroundColor', bgColor);
-		// control.setValidationProperty('ValidationMessageColor', msgColor);
-		// control.setValidationProperty('SeparatorBackgroundColor', separatorColor);
+		control.setValidationProperty('ValidationViewBackgroundColor', '00ff00');
+		control.setValidationProperty('ValidationMessageColor', 'ff0000');
+		control.setValidationProperty('SeparatorBackgroundColor', '0000ff');
 
-		control.applyValidation();
-
+		//control.applyValidation();
+            
 		control.redraw();
 		//}
+
+		var allControls = pageProxy.getPage().getControls();
 	}
 
 	//show inline error
